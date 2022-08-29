@@ -67,3 +67,20 @@ def Cuenta(request):
     miCliente.nombreCompleto = miCliente.apellido + ', ' + miCliente.nombre
 
     return render(request, "cuentas/cuentas.html", {'Cliente': miCliente})
+
+
+class Cliente():
+   apellido = ''
+   nombre = ''
+   balance = 0
+   balancef = 0
+   tipoCuenta = ''
+   idCuenta=''
+   dni = ''
+   nombreCompleto = ''
+   tarjeta = ''
+   tarjetaUlt = ''
+   img = ''
+   tcc = False
+   tcg = False
+   tcb = False

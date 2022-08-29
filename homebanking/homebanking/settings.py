@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'Prestamos',
     'Tarjetas',
     'utils',
+    'Empleados',
+    'rest_framework',
+    'api',
 ]
 
 MIDDLEWARE = [
